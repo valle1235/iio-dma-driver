@@ -136,6 +136,6 @@ static struct platform_driver fft_driver = {
 };
 module_platform_driver(fft_driver);
 
-MODULE_AUTHOR("Andreas Söderlund");
+MODULE_AUTHOR("---");
 MODULE_DESCRIPTION("DMA driver for FFT");
 MODULE_LICENSE("GPL");
