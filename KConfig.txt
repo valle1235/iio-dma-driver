@@ -1,0 +1,5 @@
+config IIO_FFT
+	tristate "IIO FFT DMA support"
+	depends on IIO && DMA_ENGINE
+	help
+	  Support for custom FFT core connected via AXI DMA
